@@ -1,0 +1,9 @@
+body {
+    font-family: Papyrus, fantasy;
+}
+first-background
+{
+    background: #db9642;
+    background: linear-gradient(90deg,rgba(219, 150, 66, 1) 0%,
+    rgba(222, 204, 100, 1) 50%, rgba(237, 206, 83, 1) 100%);
+}
