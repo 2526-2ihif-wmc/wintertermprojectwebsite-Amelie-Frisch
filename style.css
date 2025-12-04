@@ -1,9 +1,11 @@
 body {
-    font-family: Papyrus, fantasy;
-}
-first-background
-{
+    padding: 6%;
+    font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
+    font-size: 1.5rem;
     background: #db9642;
     background: linear-gradient(90deg,rgba(219, 150, 66, 1) 0%,
     rgba(222, 204, 100, 1) 50%, rgba(237, 206, 83, 1) 100%);
+}
+.main-align {
+    text-align: center;
 }
