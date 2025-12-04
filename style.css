@@ -9,3 +9,33 @@ body {
 .main-align {
     text-align: center;
 }
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navbar ul li {
+    float: left;
+}
+.navbar li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar ul li a:hover:not(.active) {
+  background-color: darkslategrey;
+  color: white;
+}
+.navbar ul li a.active {
+  background-color: white;
+  color: black;
+}
+.navbar ul li a:visited, a:link, a:active {
+    color: gray;
+}
