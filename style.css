@@ -1,41 +1,38 @@
-body {
-    padding: 6%;
-    font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
-    font-size: 1.5rem;
-    background: #db9642;
-    background: linear-gradient(90deg,rgba(219, 150, 66, 1) 0%,
-    rgba(222, 204, 100, 1) 50%, rgba(237, 206, 83, 1) 100%);
-}
-.main-align {
-    text-align: center;
-}
-.navbar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: black;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-.navbar ul li {
-    float: left;
-}
-.navbar li a {
-  display: block;
+html, body {
+  font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
+  background: linear-gradient(90deg,rgba(219, 150, 66, 1) 0%,
+  rgba(222, 204, 100, 1) 50%, rgba(237, 206, 83, 1) 100%);
   text-align: center;
-  padding: 14px 16px;
+}
+#nav > h1 {
+  font-size: 2.6rem;
+  color: lch(54.15% 34.03 189.36);
+  padding: 1rem 2rem 0rem 1.8rem;
+}
+#nav a {
+  font-size: 1.6rem;
+  display: inline-block;
+  text-align: center;
+  color: oklab(73.977% -0.11531 -0.0204);
+  padding: 0.2rem 0.5em;
+  margin: 0.7rem 2rem;
   text-decoration: none;
 }
-.navbar ul li a:hover:not(.active) {
-  background-color: darkslategrey;
-  color: white;
+#nav a:hover {
+  background-color: bisque;
+  color:#5c3400
 }
-.navbar ul li a.active {
-  background-color: white;
-  color: black;
+#content {
+  float: right;
+  width: 80%;
+  height: 100%;
+  font-size: 1.5rem;
+  overflow-y: auto;
 }
-.navbar ul li a:visited, a:link, a:active {
-    color: gray;
+#nav {
+    margin-right: 1%;
+    width: 19%;
+    height: 100%;
+    background: #5c3400;
+    position: fixed;
 }
