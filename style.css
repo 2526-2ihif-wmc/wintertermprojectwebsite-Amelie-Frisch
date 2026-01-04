@@ -4,7 +4,7 @@ html, body {
   rgba(222, 204, 100, 1) 50%, rgba(237, 206, 83, 1) 100%);
   text-align: center;
 }
-#nav > h1 {
+#nav h1 {
   font-size: 2.6rem;
   color: lch(54.15% 34.03 189.36);
   padding: 1rem 2rem 0rem 1.8rem;
@@ -17,6 +17,7 @@ html, body {
   padding: 0.2rem 0.5em;
   margin: 0.7rem 2rem;
   text-decoration: none;
+  border-radius: 0.6rem;
 }
 #nav a:hover {
   background-color: bisque;
@@ -35,4 +36,13 @@ html, body {
     height: 100%;
     background: #5c3400;
     position: fixed;
+}
+p.content {
+  text-align: justify;
+}
+#big {
+  font-size: 2rem;
+}
+#rosetta-stone {
+  font-size: 1rem;
 }
